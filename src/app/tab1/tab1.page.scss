@@ -1,0 +1,57 @@
+
+ion-content.back {
+    --background: none;
+    background-image: url('../..//assets/images/back.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ion-content.div{
+    margin-left: 20;
+}
+.logo1{
+width: 60%;
+position: relative;
+top: 20px;
+left: 20%;
+}
+.logo2{
+    position: relative;
+    top : 35px  ; 
+    width : 110 ; 
+}
+.btn{
+  //background-color: #D6A752;
+   border-radius: 15px;
+}
+
+.logo3{
+    width: 100%;
+}
+.h4style{
+    width: 20vmax;
+    font-size: 30px;
+    margin-left: 124px;
+    margin-top : 149px;
+    color: cornsilk;
+    //font-size: 2vmax;
+}
+.h5style{
+    font-size: 28px;
+    margin-left: 155px;
+    margin-top : -3px;
+    color: cornsilk;
+}
+.h6style{
+    width: 78%;
+    height: 28%;
+    position: relative;
+    top: 19px;
+    left: 67px;
+    font-size: medium;
+    color: seashell;
+}
+.test{
+    --color: #fff !important;
+    border-radius: 70%;
+}

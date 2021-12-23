@@ -1,0 +1,28 @@
+<ion-header>
+  
+
+</ion-header>
+
+<ion-content class="back">
+  <ion-item >
+    <h4 slot="end" style="color: #4054B2;">إنتخابات ليبيا المرشحون</h4>
+    <button [routerLink]="['../']" style="color: blue;background-color: white;"> <ion-icon name="arrow-back"></ion-icon></button>
+  </ion-item>
+  <ion-img src="{{this.candPhoto}}" class="imgstyle"></ion-img>
+  <h4 style="text-align: center; color: azure;">{{this.candName}}</h4>
+  <p style="text-align: center; color: azure;">رئيس حزب القمة و رئيس مجلس ثوار طرابلس، وأحد القادة العسكريين للثوار الليبيين في ثورة 17 فبراير.</p>
+  <ion-icon name="thumbs-up" style="position: relative; left: 41%;"></ion-icon>
+  <ion-label style="position: relative; left: 33%; top: 15px; color: aliceblue;"> 20% </ion-label>
+  <ion-icon name="thumbs-down" style="position: relative; left: 39%;"></ion-icon>
+  <ion-label style="position: relative; left: 31%; top: 14px; color: aliceblue;"> 15% </ion-label>
+  <ion-grid style="position: relative; top: 2%;">
+    <ion-row>
+      <ion-col size="6">
+        <ion-button   size="large" color="warning" fill="solid" style="border-radius: 70%;" (click)="buttonClick()" > <ion-icon name="list"></ion-icon> سيرة شخصية</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button  size="large" color="warning" fill="solid" style="border-radius: 70%;" (click)="buttonClick2()"  > <ion-icon name="create" ></ion-icon> برنامج عمل </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,44 @@
+<ion-header style="position: unset;">
+  <ion-toolbar >
+    <h4 slot="end" style="color: #4AA2DA;margin: 9px;"> برنامج عمل </h4>
+    <button [routerLink]="['../']" style="background-color: white ;color: #4AA2DA;"> <ion-icon name="arrow-back"></ion-icon></button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="back">
+  <ion-grid >
+    <ion-row>
+
+      <ion-col size="8" class="btn">
+        <h4 style="text-align :right; color: black; position: relative;top: 15px;">{{this.candName}}</h4>
+      </ion-col>
+      <ion-col size="4">
+        <ion-img src="{{candPhoto}}" class="imgstyle"></ion-img>
+      </ion-col>
+
+
+      
+    </ion-row>
+    <ion-row >
+      <ion-img style=" position: relative;
+      left: 50% ;
+      width: 18% ;
+      margin: -13%;
+      " src="../..//assets/images/Groupe 23.png"  > </ion-img>
+    
+        <ion-img style=" position: relative;
+        left: 74% ;
+        width: 18% ;
+        margin: -13%;
+        " src="../..//assets/images/BACKGROUND_1.png"  ></ion-img>
+
+    </ion-row>
+    <ion-badge color="light" style="position: relative; left: 37%; margin: 4%;">20%</ion-badge>
+    <ion-badge color="light" style="position: relative; left: 37%; margin: 4%;">30%</ion-badge>
+  </ion-grid>
+  <!-- <ion-item style="position: unset;">
+    <ion-label> 10% </ion-label>
+    <ion-label> 20% </ion-label>
+  </ion-item> -->
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "intikhabat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

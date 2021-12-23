@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item style="position: unset;" >
+    <h4 slot="end" style="color: #4054B2;">إنتخابات ليبيا المرشحون</h4>
+  </ion-item>
+
+  <!-- List of Text Items -->
+  <ion-grid class="gridstyle">
+<ion-list  >
+
+  <ion-item color="secondary" class="style" *ngFor="let candidat of candidats" button (click)="buttonClick(candidat.id,candidat.name,candidat.photo)">
+    <!-- <ion-label slot="end">   {{candidat.name}} <hr> {{candidat.id}} </ion-label> -->
+    <h5 slot="end"> {{candidat.name}}</h5>
+    <!-- <ion-label slot="end">   {{candidat.id}} </ion-label> -->
+    <ion-img src="{{candidat.photo}}" class="imgstyle"></ion-img>
+    <br>
+  </ion-item>
+  
+
+  
+</ion-list>
+</ion-grid>
+  
+
+
+</ion-content>
